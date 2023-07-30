@@ -85,7 +85,9 @@ h1,
     flex: 1; }
     @media screen and (max-width: 576px) {
       .container .right .mainInfo {
-        text-align: center; } }
+        text-align: center; } 
+        .container .right .mainInfo h1 {
+          display: none; }}
     .container .right .mainInfo h1 {
       font-size: 2em;
       margin-left: 1em; }
@@ -100,7 +102,8 @@ h1,
         .container .right .mainInfo .slogan {
           width: auto; } }
     .container .right .mainInfo .form-subscribe {
-      margin-top: 0.5em; }
+      margin-top: 0.5em;
+      margin-bottom: 1rem; }
       @media screen and (max-width: 576px) {
         .container .right .mainInfo .form-subscribe {
           margin-left: 0; } }
@@ -175,9 +178,9 @@ button,
     .form-subscribe {
       margin-left: auto; } }
 
-.twitter::before {
+.youtube::before {
   font-family: "Font Awesome 5 Brands";
-  content: "\f099"; }
+  content: "\f167"; }
 
 .facebook::before {
   font-family: "Font Awesome 5 Brands";
